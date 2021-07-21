@@ -17,9 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hi', function () {
+Route::get('/admisiones-2022', function () {
     return view('index');
-})->name('dashboard');
+})->name('landing');
+
+# CRUD registros
+Route::post('formulario', 'App\Http\Controllers\RegistroController@create');
+Route::get('formulario2', 'App\Http\Controllers\RegistroController@index');
+Route::get('hipi', 'App\Http\Controllers\RegistroController@destroy');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

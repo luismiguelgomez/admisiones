@@ -78,7 +78,8 @@
                   <h3 align="center" style="color: black;"> <strong> Registra tus Datos </strong> </h2>
                   <h4 align="center" style="color: black;">Se parte de la familia Agustiniana</h3>
 
-                  <form action="*.php" method="post" accept-charset="utf-8">
+                    <form action="formulario" method="POST" enctype="multipart/form-data">
+                    @csrf
                       
                       <br>
                       <input class="form-control" data-label="Nombre" data-msg="Nombre" type="text" name="nombre" placeholder="Nombres y apellidos"> <br>
@@ -109,7 +110,7 @@
                       <br>
                           <span align="center">  * Autorizo el uso de datos aqui registrados </span>
                       <br><br>
-                  </form>
+                    </form>
               </div>
           </div>
       </div>
