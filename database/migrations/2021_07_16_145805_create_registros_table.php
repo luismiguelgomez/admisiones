@@ -15,15 +15,11 @@ class CreateRegistrosTable extends Migration
     {
         Schema::create('registros', function (Blueprint $table) {
             $table->id();
-            $table->String('nombre');
+            $table->String('nombre_apellidos');
             $table->String('ciudad');
             $table->String('telefono');
-            $table->String('apellidos');
             $table->String('email');
             $table->String('grado');
-            $table->integer('dia');
-            $table->integer('mes');
-            $table->integer('anio');
             $table->timestamps();
         });
     }
