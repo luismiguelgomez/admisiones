@@ -67,6 +67,15 @@
     <div class="container">
       <!-- <div class="intro-text"> -->
 
+        <div class="row">
+          <div class="col">
+            <table>
+              <td style="padding: 50px;">
+              </td>
+            </table>
+          </div>
+        </div>
+
 <!-- Hero con formulario -->
 <div class="container-fluid">
   <div class="row">
@@ -82,12 +91,12 @@
                     @csrf
                       
                       <br>
-                      <input class="form-control" data-label="Nombre" data-msg="Nombre" type="text" name="nombre" placeholder="Nombres y apellidos"> <br>
-                      <input class="form-control" data-label="Ciudad" data-msg="ciudad" type="text" name="ciudad" placeholder="Ciudad"> <br>
-                      <input class="form-control" data-label="email" data-msg="Email" type="email" name="email" placeholder="Email"> <br>
-                      <input class="form-control" data-label="telefono" data-msg="Teléfono" type="tel" name="telefono" placeholder="Teléfono"> <br>
+                      <input class="form-control" data-label="Nombre" data-msg="Nombre" type="text" name="nombre" placeholder="Nombres y apellidos" maxlength="250" required> <br>
+                      <input class="form-control" data-label="Ciudad" data-msg="ciudad" type="text" name="ciudad" placeholder="Ciudad" maxlength="100" required> <br>
+                      <input class="form-control" data-label="email" data-msg="Email" type="email" name="email" placeholder="Email" maxlength="100" required> <br>
+                      <input class="form-control" data-label="telefono" data-msg="Teléfono" type="number" name="telefono" placeholder="Teléfono" required> <br>
       
-                      <select class="form-control" name="grado">
+                      <select class="form-control" name="grado" required>
                           <option value="1">Selecciona el grado</option>
                           <option value="jardin">Jardin</option>
                           <option value="transicion">Transición</option> 
