@@ -22,19 +22,6 @@
 
   <!-- Custom styles for this template -->
   <link href="" rel="stylesheet">
-</head>
-
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Sala de grados 2021-1</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!--<link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">-->
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
   <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
   <link rel="stylesheet" href="{{ asset('css/presentational-only/presentational-only.css') }}">
 

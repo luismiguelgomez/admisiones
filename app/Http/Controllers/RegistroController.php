@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Registro;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\TestMail;
 
 class RegistroController extends Controller
 {
@@ -19,13 +21,25 @@ class RegistroController extends Controller
         
         $formulario = new Registro;
         $formulario->nombre_apellidos = $request->nombre;
-        //$formulario->nombre = $request->input('nombre');
         $formulario->ciudad = $request->ciudad;
         $formulario->email = $request->email;
         $formulario->telefono = $request->telefono;
         $formulario->grado = $request->grado;
         $formulario->save();
 
+        $details = [
+            'body' => 'cuerpo correo',
+            'nombre' => $request->nombre,
+            'ciudad' => $request->ciudad,
+            'correo' => $request->email,
+            'telefono' => $request->telefono,
+            'grado' => $request->grado
+        ];
+
+        //Enviar el email
+        Mail::to("analistaweb@uniagustiniana.edu.co")->send(new TestMail($details));
+        return 'Correo enviado';
+        //Mail::to("analistaweb@uniagustiniana.edu.co")->send(new OrderShipped("Fernando"));
         dd($request->all());
         die();
     }
