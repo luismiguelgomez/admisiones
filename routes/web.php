@@ -28,3 +28,5 @@ Route::get('hipi', 'App\Http\Controllers\RegistroController@destroy');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('formulario-list-excel', 'App\Http\Controllers\RegistroExcelController@exportExcel' )->name('formulario.excel');

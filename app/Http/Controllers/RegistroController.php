@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Registro;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\TestMail;
+use App\Mail\CorreoSolicitanteAdmi;
 
 class RegistroController extends Controller
 {
@@ -38,6 +39,7 @@ class RegistroController extends Controller
 
         //Enviar el email
         Mail::to("analistaweb@uniagustiniana.edu.co")->send(new TestMail($details));
+        Mail::to("analistaweb@uniagustiniana.edu.co")->send(new CorreoSolicitanteAdmi());
         return view ('correoEnviado');
     }
 }
