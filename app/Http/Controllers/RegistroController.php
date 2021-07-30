@@ -38,9 +38,6 @@ class RegistroController extends Controller
 
         //Enviar el email
         Mail::to("analistaweb@uniagustiniana.edu.co")->send(new TestMail($details));
-        return 'Correo enviado';
-        //Mail::to("analistaweb@uniagustiniana.edu.co")->send(new OrderShipped("Fernando"));
-        dd($request->all());
-        die();
+        return view ('correoEnviado');
     }
 }
