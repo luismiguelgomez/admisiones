@@ -1,6 +1,32 @@
 /* Responsive Full Background Image Using CSS
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
+h1,h2,h3{
+  color: #343B3E;    
+  font-weight: bolder;
+}
+
+h4, h5{
+  color: #343B3E;
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.container {
+  padding-top: 10px;
+}
+
 body {
   /* Location of the image */
   background-image: url(../img/fondoForm.jpg);
@@ -29,11 +55,22 @@ body {
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: x-small;
+  }
+
   body {
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
     background-image: url(../img/fondoForm.jpg); 
     background-position: right;
     background-size: auto;
+  }
+
+  h5{
+    font-size: large;
   }
 }
