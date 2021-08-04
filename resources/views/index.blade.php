@@ -43,7 +43,7 @@
           <div class="row">
               <div class="col-md-12">
                   <div class="row">
-
+          
                   <div class="col-md-5" style="background: #0606068a; opacity: 0.9;  border: 1px solid black; border-radius: 15px 15px 15px 15px;">
 
                           <h3 align="center" style="color: white;"> <strong> Registra tus Datos </strong> </h2>
@@ -170,8 +170,8 @@
       </div>
     </div>
   </section>
-<br>
-  <!--Terccer sección-->
+  <br>
+  <!--Tercer sección-->
   <section class="section justify-content-center text-center">
     <div class="container">
       <div class="row">
@@ -200,34 +200,214 @@
       </div>
       <br>
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="img/600X400.png" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/600X400.png" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/600X400.png" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+        <div class="col-md-12">
+          <h2>Video Institucional</h2><br>
+          <iframe width="600px" height="800px" src="https://www.youtube.com/embed/Rj_ZfqGACP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-md-2"></div>
       </div>
     </div>
   </section>
+  <!--Cuarta sección-->
+  <section class="section justify-content-center text-center" style="margin-top: 9%;">
+    <div class="container">
+      <!--Rutas-->
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <h3>Servicios complementarios</h3>
+        </div>
+        <!--RUTAS IMAGEN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+        <!--RUTAS INFORMACIÓN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <h3>Rutas</h3>
+              <p style="color:black">
+                Más de 20 rutas escolares propias y contratadas que permiten 
+                cubrir la zona de influencia de nuestro colegio brindando a 
+                nuestros estudiantes, seguridad, comodidad, optimizando los 
+                tiempos de desplazamiento en recorridos organizados. Zona de 
+                abordaje especial para nuestros más pequeños
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><hr>
+      <!--RESTAURANTE-->
+      <div class="row">
+        <!--Restaurante INFORMACIÓN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <h3>Restaurante</h3>
+              <p style="color:black">
+                El servicio de alimentación en el restaurante y la cafetería escolar, 
+                es prestado por ALIMENTOS MARLUZ S.A.S. Empresa avalada con certificación 
+                en calidad, en las buenas prácticas de manufactura (BPM) ante el INVIMA y  
+                con  más de 10 años de experiencia al servicio de los estudiantes en la institución.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Restaurante IMAGEN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><hr>
+      <!--Actividades de tiempo libre -->
+      <div class="row">
+        <!--Actividades de tiempo libre IMAGEN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+        <!--Actividades de tiempo libre INFORMACIÓN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <center>
+                <h3>Actividades de tiempo libre</h3>
+                <p style="color:black">
+                  Los estudiantes Agustinianos podrán disfrutar y ser parte de talleres artísticos y 
+                  científicos. Formación en Arte gráfico e ilustración. 
+                  <br>
+                  Danza Folklórica y Moderna, Ballet, Música y danza del Caribe, Pintura, Porcelanicrón, 
+                  Guitarra, Robótica, Astronomía. 
+                  <br>
+                  Escuelas deportivas: Fútbol, Baloncesto, Tenis de Campo y Artes marciales, Patinaje. ​ 
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><hr>
+      <!--Orientación escolar -->
+      <div class="row">
+        <!--Orientación escolar INFORMACIÓN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <h3>Orientación escolar </h3>
+              <p style="color:black">
+                Contamos con un equipo multidisciplinar conformado por tres profesionales en 
+                Orientación escolar. Desarrollamos constantemente las ‘Escuela de padres’ orientadas a 
+                fortalecer los vínculos familiares y el bienestar socioemocional de los estudiantes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Orientación escolar IMAGEN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><hr>
+      <!--Enfermería -->
+      <div class="row">
+        <!--Enfermería IMAGEN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+        <!--Enfermería INFORMACIÓN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <center>
+                <h3>Enfermería </h3>
+                <p style="color:black">
+                  Brindamos la ayuda básica necesaria (primeros auxilios) que se le otorga a un estudiante
+                  que ha sufrido algún tipo de accidente o enfermedad mientras la familia gestiona la atención 
+                  de un médico o profesional de la salud. ​ 
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><hr>
+      <!--Biblioteca escolar -->
+      <div class="row">
+        <!--Biblioteca escolar INFORMACIÓN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <h3>Biblioteca </h3>
+              <p style="color:black">
+                Satisfacemos las necesidades de consulta y acceso para labores de información 
+                e investigación por parte de estudiantes y docentes de la institución, 
+                construcción de conocimiento, el descubrimiento, la autoformación, la lectura, 
+                la difusión de la cultura y el aprovechamiento del tiempo libre.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Biblioteca escolar IMAGEN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><hr>
+      <!--Pastoral  -->
+      <div class="row">
+        <!--Pastoral  IMAGEN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+        <!--Pastoral  INFORMACIÓN-->
+        <div class="col-md-6">
+          <div>
+            <div>
+              <center>
+                <h3>Pastoral  </h3>
+                <p style="color:black">
+                  Propiciamos una cultura espiritual y trascendente, que permite a los diferentes miembros 
+                  de la Comunidad Educativa, un mejor conocimiento de su fe al estilo agustiniano, y por 
+                  tanto un seguimiento decidido a Cristo, que se refleja en su quehacer diario
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><hr>
+    </div>
+  </section>      
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
