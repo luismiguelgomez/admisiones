@@ -27,6 +27,10 @@ h4, h5{
   padding-top: 10px;
 }
 
+.formulario {
+  padding-top: 30px;
+}
+
 body {
   /* Location of the image */
   background-image: url(../img/fondoForm.jpg);
@@ -60,6 +64,14 @@ body {
     display: inline-block;
     text-align: center;
     font-size: x-small;
+  }
+
+  .nuestra_comunidad {
+    padding-top: 280px;
+  }
+
+  .formulario {
+    padding-top: 80px;
   }
 
   body {

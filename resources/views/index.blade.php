@@ -8,6 +8,9 @@
 
   <title>Admisiones 2022</title>
 
+  <!--Icono de titulo-->
+  <link rel="icon" href="img/cropped-icon-logo.png">
+
   <!-- Custom fonts for this template -->
   <link href="{{ asset('plantilla/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -44,10 +47,10 @@
               <div class="col-md-12">
                   <div class="row">
           
-                  <div class="col-md-5" style="background: #0606068a; opacity: 0.9;  border: 1px solid black; border-radius: 15px 15px 15px 15px;">
+                  <div class="col-md-5 formulario" style="background: #0606068a; opacity: 0.9;  border: 1px solid black; border-radius: 15px 15px 15px 15px;">
 
                           <h3 align="center" style="color: white;"> <strong> Registra tus Datos </strong> </h2>
-                          <h4 align="center" style="color: white;">Se parte de la familia Agustiniana</h3>
+                          <h4 align="center" style="color: white;">Sé parte de la familia Agustiniana</h3>
 
                             <form action="formulario" method="POST" enctype="multipart/form-data">
                             @csrf
@@ -81,7 +84,7 @@
                               <br>
                                   <span align="center">
                                     <input type="checkbox" required>
-                                    Autorizo el uso de datos aqui registrados
+                                    Autorizo el uso de datos aquí registrados
                                   </span>
 
                                 <!-- Politicas de tratamiento de datos -->
@@ -124,13 +127,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>Nuestra Comunidad de Agustinos Recoletos hace presencia en</h2>
+          <h2 class="nuestra_comunidad">Nuestra Comunidad de Agustinos Recoletos hace presencia en</h2>
         </div>
         <!--11 Colegios-->
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-colegios.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
             <div>
               <h3>11 colegios</h3>
@@ -147,17 +150,19 @@
             </div>
           </div>
         </div>
+        <div class="col-md-2"></div>
         <!--Imagen de Somos formadores de excelencia-->
-        <div class="col-md-12" style="margin-top: 30px">
+        <div class="col-md-8" style="margin-top: 30px">
           <div>
             <div>
-              <img src="img/1200X800.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-somosformadores.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
             <div>
               <h3>Somos formadores de excelencia</h3>
             </div>
           </div>
         </div>
+        <div class="col-md-2"></div>
         
         <div class="col-md-12" style="margin-top: 30px">
           <h4>
@@ -180,7 +185,7 @@
         </div>
         <div class="col-md-6 contenedor">
           <h5>Inglés intensivo</h5>
-          <img src="img/1200X800.png" class="img-fluid" style="border-radius: 20px;">
+          <img src="img/Col-ingles.jpg" class="img-fluid" style="border-radius: 20px;">
           <div class="centrado">Nuestro programa de ingles intensivo permite a nuestros estudiantes 
             abordar una segunda lengua de forma adecuada y práctica lo que facilita su aprendizaje 
             para el buen desarrollo de las actividades futuras. 
@@ -190,7 +195,7 @@
         </div>
         <div class="col-md-6 contenedor">
           <h5>Actividades de tiempo libre</h5>
-          <img src="img/1200X800.png" class="img-fluid" style="border-radius: 20px;">
+          <img src="img/col-tiempolibre2.jpg" class="img-fluid" style="border-radius: 20px;">
           <div class="centrado">Creamos una cultura del adecuado manejo del tiempo libre en el colegio y 
             fuera de él, mediante la participación en actividades físicas, deportivas, científicas, 
             recreativas y culturales, donde se evidencien los valores Agustinianos para fortalecer las 
@@ -202,7 +207,7 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Video Institucional</h2><br>
-          <iframe width="600px" height="800px" src="https://www.youtube.com/embed/Rj_ZfqGACP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/VPquB503YN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -220,7 +225,7 @@
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-rutas.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
           </div>
         </div>
@@ -262,7 +267,7 @@
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-restaurante.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
           </div>
         </div>
@@ -274,7 +279,7 @@
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-tiempolibre.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
           </div>
         </div>
@@ -319,7 +324,7 @@
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-orientacion.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
           </div>
         </div>
@@ -331,7 +336,7 @@
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-enfermeria.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
           </div>
         </div>
@@ -373,7 +378,7 @@
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-biblioteca.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
           </div>
         </div>
@@ -385,7 +390,7 @@
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/Col-pastoral.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
           </div>
         </div>
@@ -404,8 +409,14 @@
             </div>
           </div>
         </div>
+        <br>
+        <div class="col-md-12">
+          <hr>
+          <a href="https://agustinianonorte.edu.co/recorridocolegio/"><button type="button" class="btn btn-primary btn-lg btn-block">Conoce nuestras instalaciones</button></a>
+        </div>
+        </div>
       </div>
-      <br><hr>
+      
     </div>
   </section>      
 
