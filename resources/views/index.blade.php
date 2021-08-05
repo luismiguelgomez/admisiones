@@ -143,7 +143,7 @@
         <div class="col-md-6">
           <div>
             <div>
-              <img src="img/600X400.png" class="img-fluid" style="border-radius: 20px;">
+              <img src="img/col-universidad.jpg" class="img-fluid" style="border-radius: 20px;">
             </div>
             <div>
               <h3>1 universidad</h3>
@@ -185,8 +185,8 @@
         </div>
         <div class="col-md-6 contenedor">
           <h5>Inglés intensivo</h5>
-          <img src="img/Col-ingles.jpg" class="img-fluid" style="border-radius: 20px;">
-          <div class="centrado">Nuestro programa de ingles intensivo permite a nuestros estudiantes 
+          <img src="img/Col-ingles.jpg" class="img-fluid" style="border-radius: 20px;opacity: 0.3;">
+          <div class="centrado" style="color:black;font-weight: bold;">Nuestro programa de ingles intensivo permite a nuestros estudiantes 
             abordar una segunda lengua de forma adecuada y práctica lo que facilita su aprendizaje 
             para el buen desarrollo de las actividades futuras. 
             Clases magistrales y entornos adecuados para el buen desarrollo de nuestras actividades 
@@ -195,8 +195,8 @@
         </div>
         <div class="col-md-6 contenedor">
           <h5>Actividades de tiempo libre</h5>
-          <img src="img/col-tiempolibre2.jpg" class="img-fluid" style="border-radius: 20px;">
-          <div class="centrado">Creamos una cultura del adecuado manejo del tiempo libre en el colegio y 
+          <img src="img/col-tiempolibre2.jpg" class="img-fluid" style="border-radius: 20px;opacity: 0.3;">
+          <div class="centrado" style="color:black;font-weight: bold;">Creamos una cultura del adecuado manejo del tiempo libre en el colegio y 
             fuera de él, mediante la participación en actividades físicas, deportivas, científicas, 
             recreativas y culturales, donde se evidencien los valores Agustinianos para fortalecer las 
             habilidades disciplinares y de inteligencia emocional en niños y jóvenes. 

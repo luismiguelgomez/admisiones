@@ -28,12 +28,12 @@ h4, h5{
 }
 
 .formulario {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 body {
   /* Location of the image */
-  background-image: url(../img/fondoForm.jpg);
+  background-image: url(../img/img-principal.jpg);
   
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
