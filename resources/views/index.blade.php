@@ -185,24 +185,33 @@
           <h2>Actividades</h2><br>
         </div>
         <div class="col-md-6 contenedor">
-          <h5>Inglés intensivo</h5>
+          <h4 style="font-weight: bolder;color:#2E3191;">Inglés intensivo</h4>
+        </div>
+        <div class="col-md-6 contenedor">
+          <h4 style="font-weight: bolder;color:#2E3191;">Actividades de tiempo libre</h4>
+        </div>
+        <br><br><br>
+        <div class="col-md-3 contenedor">
           <img src="img/Col-ingles.jpg" class="img-fluid" style="border-radius: 20px;opacity: 0.3;">
-          <div class="centrado" style="color:black;font-weight: bold;">Nuestro programa de ingles intensivo permite a nuestros estudiantes 
+        </div>
+        <div class="col-md-3 contenedor">
+          <p style="color:black;font-weight: bold;font-size: 12px;">Nuestro programa de ingles intensivo permite a nuestros estudiantes 
             abordar una segunda lengua de forma adecuada y práctica lo que facilita su aprendizaje 
             para el buen desarrollo de las actividades futuras. 
             Clases magistrales y entornos adecuados para el buen desarrollo de nuestras actividades 
-            académicas en un entorno agradable.   
-          </div>
+            académicas en un entorno agradable.                                              
+          </p>
         </div>
-        <div class="col-md-6 contenedor">
-          <h5>Actividades de tiempo libre</h5>
+        <div class="col-md-3 contenedor">
           <img src="img/col-tiempolibre2.jpg" class="img-fluid" style="border-radius: 20px;opacity: 0.3;">
-          <div class="centrado" style="color:black;font-weight: bold;">Creamos una cultura del adecuado manejo del tiempo libre en el colegio y 
+        </div>
+        <div class="col-md-3 contenedor">
+          <p style="color:black;font-weight: bold;font-size: 12px;">Creamos una cultura del adecuado manejo del tiempo libre en el colegio y 
             fuera de él, mediante la participación en actividades físicas, deportivas, científicas, 
             recreativas y culturales, donde se evidencien los valores Agustinianos para fortalecer las 
             habilidades disciplinares y de inteligencia emocional en niños y jóvenes. 
-          </div>
-        </div>
+          </p>
+        </div> 
       </div>
       <br>
       <div class="row">
@@ -221,7 +230,10 @@
         <div class="col-md-12">
           <br>
           <h3>Servicios complementarios</h3>
+          <br>
+          <br>
         </div>
+       
         <!--RUTAS IMAGEN-->
         <div class="col-md-6">
           <div>
@@ -235,6 +247,7 @@
           <div>
             <div>
               <h3>Rutas</h3>
+              <br>
               <p style="color:black">
                 Más de 20 rutas escolares propias y contratadas que permiten 
                 cubrir la zona de influencia de nuestro colegio brindando a 
@@ -254,6 +267,7 @@
           <div>
             <div>
               <h3>Restaurante</h3>
+              <br>
               <p style="color:black">
                 El servicio de alimentación en el restaurante y la cafetería escolar, 
                 es prestado por ALIMENTOS MARLUZ S.A.S. Empresa avalada con certificación 
@@ -290,6 +304,7 @@
             <div>
               <center>
                 <h3>Actividades de tiempo libre</h3>
+                <br>
                 <p style="color:black">
                   Los estudiantes Agustinianos podrán disfrutar y ser parte de talleres artísticos y 
                   científicos. Formación en Arte gráfico e ilustración. 
@@ -312,6 +327,7 @@
           <div>
             <div>
               <h3>Orientación escolar </h3>
+              <br>
               <p style="color:black">
                 Contamos con un equipo multidisciplinar conformado por tres profesionales en 
                 Orientación escolar. Desarrollamos constantemente las ‘Escuela de padres’ orientadas a 
@@ -347,6 +363,7 @@
             <div>
               <center>
                 <h3>Enfermería </h3>
+                <br>
                 <p style="color:black">
                   Brindamos la ayuda básica necesaria (primeros auxilios) que se le otorga a un estudiante
                   que ha sufrido algún tipo de accidente o enfermedad mientras la familia gestiona la atención 
@@ -365,6 +382,7 @@
           <div>
             <div>
               <h3>Biblioteca </h3>
+              <br>
               <p style="color:black">
                 Satisfacemos las necesidades de consulta y acceso para labores de información 
                 e investigación por parte de estudiantes y docentes de la institución, 
@@ -401,6 +419,7 @@
             <div>
               <center>
                 <h3>Pastoral  </h3>
+                <br>
                 <p style="color:black">
                   Propiciamos una cultura espiritual y trascendente, que permite a los diferentes miembros 
                   de la Comunidad Educativa, un mejor conocimiento de su fe al estilo agustiniano, y por 
