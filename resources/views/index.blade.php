@@ -127,6 +127,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+        <a target="_blank" href="https://agustinianonorte.edu.co/proceso-de-admisiones/"><button type="button" class="btn btn-primary btn-lg btn-block">Conoce al proceso de admisión</button></a>
           <h2 class="nuestra_comunidad">Nuestra Comunidad de Agustinos Recoletos hace presencia en</h2>
         </div>
         <!--11 Colegios-->
@@ -412,7 +413,7 @@
         <br>
         <div class="col-md-12">
           <hr>
-          <a href="https://agustinianonorte.edu.co/recorridocolegio/"><button type="button" class="btn btn-primary btn-lg btn-block">Conoce nuestras instalaciones</button></a>
+          <a target="_blank" href="https://agustinianonorte.edu.co/recorridocolegio/"><button type="button" class="btn btn-primary btn-lg btn-block">Conoce nuestras instalaciones</button></a>
         </div>
         </div>
       </div>

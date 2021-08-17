@@ -38,8 +38,8 @@ class RegistroController extends Controller
         ];
 
         //Enviar el email
-        Mail::to("analistaweb@uniagustiniana.edu.co")->send(new TestMail($details));
-        Mail::to("analistaweb@uniagustiniana.edu.co")->send(new CorreoSolicitanteAdmi());
+        Mail::to($request->email)->send(new TestMail($details));
+        Mail::to($request->email)->send(new CorreoSolicitanteAdmi());
         return view ('correoEnviado');
     }
 }
