@@ -127,7 +127,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-        <a target="_blank" href="https://agustinianonorte.edu.co/proceso-de-admisiones/"><button type="button" class="btn btn-primary btn-lg btn-block">Conoce al proceso de admisión</button></a>
+        <a target="_blank" href="https://agustinianonorte.edu.co/proceso-de-admisiones/"><button type="button" class="btn btn-primary btn-lg btn-block">Conoce el proceso de admisión</button></a>
           <h2 class="nuestra_comunidad">Nuestra Comunidad de Agustinos Recoletos hace presencia en</h2>
         </div>
         <!--11 Colegios-->
@@ -192,7 +192,7 @@
         </div>
         <br><br><br>
         <div class="col-md-3 contenedor">
-          <img src="img/Col-ingles.jpg" class="img-fluid" style="border-radius: 20px;opacity: 0.3;">
+          <img src="img/Col-ingles.jpg" class="img-fluid" style="border-radius: 20px;">
         </div>
         <div class="col-md-3 contenedor">
           <p style="color:black;font-weight: bold;font-size: 12px;">Nuestro programa de ingles intensivo permite a nuestros estudiantes 
@@ -203,7 +203,7 @@
           </p>
         </div>
         <div class="col-md-3 contenedor">
-          <img src="img/col-tiempolibre2.jpg" class="img-fluid" style="border-radius: 20px;opacity: 0.3;">
+          <img src="img/col-tiempolibre2.jpg" class="img-fluid" style="border-radius: 20px;">
         </div>
         <div class="col-md-3 contenedor">
           <p style="color:black;font-weight: bold;font-size: 12px;">Creamos una cultura del adecuado manejo del tiempo libre en el colegio y 
