@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/admisiones-2022', function () {
+Route::get('/', function () {
     return view('index');
 })->name('landing');
 
